@@ -64,16 +64,16 @@
         <tr>
 
           <td>
-            <h1 class="text-center mb-5 mt-3">
-              <strong>abdisalam MEDICAL CENTER</strong>
+          <strong>Dr.Abdisalan Dental Clinic</strong>
 
-            </h1>
-            <h3 class="mb-5 ml-3">
-              xidhida siliga, Galinta, Buuxinta, Maydhida, Dhuuxkadilida, Toosinta, Cadaynta, Raajada Daawaynta
-              Ciridka
-              & Qurxinta Ilkaha, Samaynta Dabarka
-              <u>Borama Branch: Tel:0633441216/4839514</u>
-            </h3>
+</h1>
+<h3 class="mb-5 ml-3">
+    xidhida siliga, Galinta, Buuxinta, Maydhida, Dhuuxkadilida, Toosinta, Cadaynta, Raajada
+    Daawaynta
+    Ciridka
+    & Qurxinta Ilkaha, Samaynta Dabarka
+    <u>Borama Branch: Tel:63 4526144</u>
+</h3>
 
 
 
