@@ -278,11 +278,13 @@ $counttt = $query->num_rows;
 
             ?>
           </thead>
-
+<?php 
+$counter = 1;
+?>
           <tr>
           
             <td>
-              <?php echo $row['PatientID']; ?>
+              <?php echo $counter++; ?>
             </td>
             <td>
               <?php echo $row['Fname']; ?>
