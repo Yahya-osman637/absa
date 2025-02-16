@@ -65,7 +65,7 @@
 
           <td>
             <h1 class="text-center mb-5 mt-3">
-              <strong>DAACAD MEDICAL CENTER</strong>
+              <strong>abdisalam MEDICAL CENTER</strong>
 
             </h1>
             <h3 class="mb-5 ml-3">
