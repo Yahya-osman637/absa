@@ -4,7 +4,7 @@ require_once("include/conn.php");
 // session_start();
 
 // if (isset($_SESSION['userId'])) {
-//     header('location: http://localhost/abdisalam/index.php');
+//     header('location: http://localhost/DAACAD/index.php');
 // }
 
 $errors = array();
@@ -27,7 +27,7 @@ if ($_POST) {
         $result = $con->query($sql);
 
         if ($result->num_rows == 1) {
-            $password = md5($password);
+            $password = $password;
             // exists
             $mainSql = "SELECT * FROM users WHERE username = '$username' AND password = '$password'";
             $mainResult = $con->query($mainSql);
@@ -38,8 +38,8 @@ if ($_POST) {
 
                 // set session
                 $_SESSION['userId'] = $user_id;
-
-                header('location: http://localhost/abdisalam/dashboard.php');
+                
+  header('location: dashboard.php');
             } else {
 
                 $errors[] = "Incorrect username/password combination";
@@ -56,7 +56,7 @@ if ($_POST) {
 <html>
 
 <head>
-    <title>abdisalams DENTAL CLINIC</title>
+    <title>DAACADs DENTAL CLINIC</title>
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="assests/bootstrap/css/bootstrap.min.css">
