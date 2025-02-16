@@ -271,6 +271,9 @@ $counttt = $query->num_rows;
 
 
           </tr>
+          <?php 
+$counter = 1;
+?>
           <?php
           $sql = "SELECT * FROM tblpatients";
           $query = mysqli_query($con, $sql);
@@ -278,9 +281,7 @@ $counttt = $query->num_rows;
 
             ?>
           </thead>
-<?php 
-$counter = 1;
-?>
+
           <tr>
           
             <td>
