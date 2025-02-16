@@ -1,0 +1,53 @@
+
+body{
+    background: url('../images/back.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.section-services{
+    background: rgb(0, 0, 0,0.4);
+    background-attachment: fixed;
+}
+.container-fluid .container .card:hover{
+    background: rgb(0, 0, 0,0.8);
+    color: white;
+    cursor: pointer;
+}
+.footer .container-fluid {
+    background: url('../images/9.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #f9ca24;
+    border-radius: 10px;
+    
+}
+.footer .row {
+    color: #f9ca24;
+}
+.section-para .card {
+    background: transparent;
+    color:#130f40;
+    font-weight: bold;
+
+}
+.section-para {
+    background: url('../images/3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 100px;
+    border-radius: 10px;
+}
+
+.images {
+    background: rgb(0, 0, 0,0.10);
+    background-attachment: fixed;
+} 
+.navbar-brand{
+    font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
